@@ -11,7 +11,8 @@ public class TestklasseDice {
 
   public void rollDice100(){
     for (int i = 0; i < 100; i++){
-      switch(dice1.rollDice()){
+      dice1.rollDice();
+      switch(dice1.getFaceValue()){
         case 1:
           one++;
           break;

@@ -9,8 +9,8 @@ public class Dice {
   }*/
 
   //Laver en roll-metode
-  public int rollDice(){
-    return faceValue = (int) Math.floor(Math.random()*6+1);
+  public void rollDice(){
+    faceValue = (int) Math.floor(Math.random()*6+1);
   }
 
   //Laver en get-metode
